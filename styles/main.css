@@ -1,0 +1,19 @@
+body {
+	display: block;
+	box-shadow: none;
+	background-color: #08101b;
+}
+
+.hero-section {
+	padding: 1rem 3rem;
+}
+nav {
+	position: absolute;
+	display: flex;
+	flex-direction: row;
+	background-color: transparent;
+}
+
+.logo {
+	width: 176px;
+}
