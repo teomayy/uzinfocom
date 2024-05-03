@@ -8,7 +8,7 @@ body {
 	height: 720px;
 	flex-shrink: 0;
 	background-color: #08101b;
-	font-family: Arial, sans-serif;
+	font-family: 'Poppins', sans-serif;
 }
 
 .main {
@@ -18,11 +18,12 @@ body {
 }
 
 .hero-section {
+	position: relative;
+	z-index: -2;
 	background: no-repeat;
 	background: linear-gradient(20deg, #08101b 58.31%, rgba(8, 16, 27, 0) 98.86%);
 	width: 1780px;
 	height: 900px;
-
 	background-color: #0f2043;
 }
 .navbar {
@@ -175,6 +176,8 @@ body {
 
 .backgound-element {
 	position: absolute;
+	z-index: -1;
+	overflow: hidden;
 }
 
 .hero-title {
@@ -188,16 +191,208 @@ body {
 }
 
 .hero-title .h1-title {
-	width: 600px;
+	width: 820px;
 	height: 100px;
-	font-family: Poppins;
-	font-size: 25px;
+	font-family: 'Poppins', sans-serif;
+	font-size: 32px;
 	font-style: normal;
 	font-weight: 700;
-	line-height: 50px;
+	line-height: 70px;
 }
 
 .hero-title .paragraph-title {
-	margin-top: 30px;
-	width: 400px;
+	margin-top: 65px;
+	width: 600px;
+	color: #fff;
+	font-family: 'Poppins', sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 900;
+	line-height: 28.8px; /* 28.8px */
+}
+
+.hero-buttons {
+	margin-top: 80px;
+	display: flex;
+	align-items: center;
+}
+
+.hero-buttons .popup-button {
+	display: flex;
+	padding: 17px 24px;
+	height: 56px;
+	justify-content: center;
+	align-items: center;
+	gap: 12px;
+	border-radius: 8px;
+	border: 1.5px solid rgba(255, 255, 255, 0.1);
+	background-color: transparent;
+	color: #fff;
+	font-size: 18px;
+}
+
+.hero-buttons .more-button {
+	padding: 17px 24px;
+	margin-left: 20px;
+	background-color: rgba(7, 65, 150, 1);
+	border: none;
+	color: #fff;
+	border-radius: 8px;
+	font-size: 18px;
+}
+
+.hero-main-body {
+	display: flex;
+	flex-direction: row;
+}
+
+.grid-container {
+	width: 100%;
+	height: 800px;
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+}
+
+.grid-item_4 {
+	background-color: rgba(254, 254, 254, 0.11);
+}
+
+.grid-item_8 {
+	border-radius: 8px;
+	background-color: rgba(254, 254, 254, 0.06);
+}
+
+.grid-item_9 {
+	display: flex;
+	border-radius: 8px;
+	justify-content: center;
+	align-items: center;
+	background-color: rgba(76, 84, 159, 0.5);
+}
+
+.grid-item_10 {
+	display: flex;
+	border-radius: 8px;
+	justify-content: center;
+	align-items: center;
+	background: url('/src/assets/icons/Rectangle\ 17843.png') lightgray 50% /
+		cover no-repeat;
+}
+
+.grid-item_13 {
+	display: flex;
+	border-radius: 8px;
+	justify-content: center;
+	align-items: center;
+	background-color: rgba(0, 155, 152, 0.5);
+}
+
+.grid-item_14 {
+	border-radius: 8px;
+	background: url('/src/assets/icons/Rectangle\ 17844.png') lightgray 50% /
+		cover no-repeat;
+}
+
+.grid-item_15 {
+	border-radius: 8px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: rgba(0, 155, 152, 0.5);
+}
+
+.grid-item_16 {
+	border-radius: 8px;
+	background-color: rgba(254, 254, 254, 0.03);
+}
+
+.grid-item_17 {
+	border-radius: 8px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: rgba(254, 254, 254, 0.18);
+}
+
+.grid-item_18 {
+	border-radius: 8px;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(239, 127, 26, 0.5);
+}
+
+.grid-item_19 {
+	border-radius: 8px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: rgba(57, 49, 133, 0.5);
+}
+
+.grid-item_20 {
+	border-radius: 8px;
+	background-color: rgba(229, 9, 127, 0.5);
+}
+
+.grid-item_21 {
+	border-radius: 8px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: rgba(254, 254, 254, 0.08);
+}
+
+.grid-item_22 {
+	border-radius: 8px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.grid-item_22 {
+	border-radius: 8px;
+	background: url('/src/assets/icons/Rectangle\ 17846.png') lightgray 50% /
+		cover no-repeat;
+}
+
+.grid-item_23 {
+	border-radius: 8px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: rgba(0, 155, 152, 0.5);
+}
+
+.grid-item_24 {
+	border-radius: 8px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: rgba(254, 254, 254, 0.05);
+}
+
+.grid-item_25 {
+	border-radius: 8px;
+	background-color: rgba(254, 254, 254, 0.02);
+}
+
+.grid-item_26 {
+	border-radius: 8px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: rgba(254, 254, 254, 0.08);
+}
+
+.grid-item_27 {
+	border-radius: 8px;
+	background-color: rgba(0, 155, 152, 0.5);
+}
+
+.grid-item_28 {
+	border-radius: 8px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: rgba(254, 254, 254, 0.18);
 }
